@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABDFAA622BE61CAC004531AC /* arithematic.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABDFAA612BE61CAC004531AC /* arithematic.mm */; };
+		ABDFAA632BE61CAC004531AC /* arithematic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = ABDFAA602BE61CAC004531AC /* arithematic.h */; };
+		ABDFAA6B2BE61CBD004531AC /* ArithematicSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDFAA6A2BE61CBD004531AC /* ArithematicSwift.swift */; };
+		ABDFAA6D2BE61CE7004531AC /* arithematic_module.mm in Sources */ = {isa = PBXBuildFile; fileRef = ABDFAA6C2BE61CE7004531AC /* arithematic_module.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ABDFAA5B2BE61CAC004531AC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				ABDFAA632BE61CAC004531AC /* arithematic.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ABDFAA5D2BE61CAC004531AC /* libarithematic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libarithematic.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDFAA602BE61CAC004531AC /* arithematic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arithematic.h; sourceTree = "<group>"; };
+		ABDFAA612BE61CAC004531AC /* arithematic.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = arithematic.mm; sourceTree = "<group>"; };
+		ABDFAA692BE61CBC004531AC /* arithematic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "arithematic-Bridging-Header.h"; sourceTree = "<group>"; };
+		ABDFAA6A2BE61CBD004531AC /* ArithematicSwift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithematicSwift.swift; sourceTree = "<group>"; };
+		ABDFAA6C2BE61CE7004531AC /* arithematic_module.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = arithematic_module.mm; sourceTree = "<group>"; };
+		ABDFAA6E2BE61D0B004531AC /* arithematic_module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = arithematic_module.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDFAA5A2BE61CAC004531AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABDFAA542BE61CAC004531AC = {
+			isa = PBXGroup;
+			children = (
+				ABDFAA5F2BE61CAC004531AC /* arithematic */,
+				ABDFAA5E2BE61CAC004531AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDFAA5E2BE61CAC004531AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDFAA5D2BE61CAC004531AC /* libarithematic.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDFAA5F2BE61CAC004531AC /* arithematic */ = {
+			isa = PBXGroup;
+			children = (
+				ABDFAA602BE61CAC004531AC /* arithematic.h */,
+				ABDFAA612BE61CAC004531AC /* arithematic.mm */,
+				ABDFAA6A2BE61CBD004531AC /* ArithematicSwift.swift */,
+				ABDFAA692BE61CBC004531AC /* arithematic-Bridging-Header.h */,
+				ABDFAA6C2BE61CE7004531AC /* arithematic_module.mm */,
+				ABDFAA6E2BE61D0B004531AC /* arithematic_module.h */,
+			);
+			path = arithematic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDFAA5C2BE61CAC004531AC /* arithematic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDFAA662BE61CAC004531AC /* Build configuration list for PBXNativeTarget "arithematic" */;
+			buildPhases = (
+				ABDFAA592BE61CAC004531AC /* Sources */,
+				ABDFAA5A2BE61CAC004531AC /* Frameworks */,
+				ABDFAA5B2BE61CAC004531AC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = arithematic;
+			productName = arithematic;
+			productReference = ABDFAA5D2BE61CAC004531AC /* libarithematic.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDFAA552BE61CAC004531AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					ABDFAA5C2BE61CAC004531AC = {
+						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
+					};
+				};
+			};
+			buildConfigurationList = ABDFAA582BE61CAC004531AC /* Build configuration list for PBXProject "arithematic" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDFAA542BE61CAC004531AC;
+			productRefGroup = ABDFAA5E2BE61CAC004531AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDFAA5C2BE61CAC004531AC /* arithematic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDFAA592BE61CAC004531AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDFAA622BE61CAC004531AC /* arithematic.mm in Sources */,
+				ABDFAA6B2BE61CBD004531AC /* ArithematicSwift.swift in Sources */,
+				ABDFAA6D2BE61CE7004531AC /* arithematic_module.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ABDFAA642BE61CAC004531AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABDFAA652BE61CAC004531AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDFAA672BE61CAC004531AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATYGK4ZSSC;
+				HEADER_SEARCH_PATHS = /Users/transformhub/Desktop/samples/Godot/mytrial/work/plugin/godot/platform/ios;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "arithematic/arithematic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDFAA682BE61CAC004531AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ATYGK4ZSSC;
+				HEADER_SEARCH_PATHS = /Users/transformhub/Desktop/samples/Godot/mytrial/work/plugin/godot/platform/ios;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "arithematic/arithematic-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDFAA582BE61CAC004531AC /* Build configuration list for PBXProject "arithematic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDFAA642BE61CAC004531AC /* Debug */,
+				ABDFAA652BE61CAC004531AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDFAA662BE61CAC004531AC /* Build configuration list for PBXNativeTarget "arithematic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDFAA672BE61CAC004531AC /* Debug */,
+				ABDFAA682BE61CAC004531AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDFAA552BE61CAC004531AC /* Project object */;
+}

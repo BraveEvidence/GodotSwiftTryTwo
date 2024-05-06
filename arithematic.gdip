@@ -1,0 +1,17 @@
+[config]
+name="Arithematic"
+binary="arithematic.xcframework"
+
+initialization="register_arithematic_types"
+deinitialization="unregister_arithematic_types"
+
+[dependencies]
+linked=[]
+embedded=[]
+system=[]
+
+capabilities=[]
+
+files=[]
+
+[plist]
